@@ -1,1 +1,0 @@
-Les instruksjoner i script.js filen.
