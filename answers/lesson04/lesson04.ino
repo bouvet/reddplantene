@@ -11,9 +11,12 @@
 #define WIFI_SSID ""
 #define WIFI_PASSWORD ""
 
-// Enter public key and private key
-// Fyll ut publickey og privatekey
 const char PhantHost[] = "phant.labben.org";
+
+// Enter public key and private key
+// Get your public and private key by visiting http://phant.labben.org:8090
+// Fyll ut public key og private key
+// Hent publick key og private key her: http://phant.labben.org:8090
 const char publicKey[] = "";
 const char privateKey[] = "";
 
