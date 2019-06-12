@@ -12,7 +12,9 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 /* Oppgave: installer biblioteket til BlynkSimpleEsp8266.h */
+// Søk etter Blynk. Laget av Volodymyr Shymansky
 /* Execise: Install the library for BlynkSimpleEsp8266. */
+// Search for Blynk. Created by Volodymyr Shymansky
 
 
 char auth[] = "";
