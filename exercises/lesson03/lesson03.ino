@@ -20,8 +20,8 @@ void setup() {
   // Exercise: start connection to WiFi with SSID and password
   // Oppgave: Start tilkobling til trådløst nettverk med ssid og password
 
-  // Exercise: Print "." every 0.5 seconds until we are connected
-  // Oppgave: Skriv ut "." hvert 0.5 sekund fram til vi er tilkoblet
+  // Exercise: Use a while-loop to print "." every 0.5 seconds until we are connected
+  // Oppgave: Bruk en while-løkke for å skrive ut "." hvert 0.5 sekund fram til vi er tilkoblet
 
   Serial.println("Connected!");
   Serial.println("IP address: ");

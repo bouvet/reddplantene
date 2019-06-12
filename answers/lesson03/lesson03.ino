@@ -21,8 +21,8 @@ void setup() {
   // Start tilkobling til trådløst nettverk med ssid og password
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
-  // Print "." every 0.5 seconds until we are connected
-  // Skriv ut "." hvert 0.5 sekund fram til vi er tilkoblet
+  // Use a while-loop to print "." every 0.5 seconds until we are connected
+  // Bruk en while-løkke for å skrive ut "." hvert 0.5 sekund fram til vi er tilkoblet
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
